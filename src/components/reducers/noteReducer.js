@@ -1,5 +1,4 @@
 import {v4 as uuid} from 'uuid'
-import { Archive } from '../../pages/Archive'
 export const noteReducer = (state,{type,payload})=>{
     switch(type){
         case 'TITLE':
