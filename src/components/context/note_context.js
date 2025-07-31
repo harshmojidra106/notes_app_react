@@ -1,6 +1,6 @@
-import { children, createContext, useContext, useReducer } from "react";
+import { createContext, useContext, useReducer } from "react";
 import { noteReducer } from "../reducers/noteReducer";
-import { Archive } from "../../pages/Archive";
+
 
 const NotesContext = createContext();
 
